@@ -1,0 +1,408 @@
+/*login*/
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(bg7.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*Login*/
+h1{
+    
+    font-family: inherit;
+    color: black;
+    font-size: 50px;
+}
+
+.login{
+    font-size: 30px;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    padding: 100 px 100 px;
+    width: 230px;
+    
+    background-color: rgba(255, 192, 203, 0.603);
+    box-shadow: 0 0 10px peachpuff;
+}
+
+.container label{
+    text-align: left;
+    margin-left: 30px;
+}
+
+.container form input{
+    width: calc(100% - 20 px);
+    margin-left: 30px;
+}
+
+.container button{
+    background-color: palevioletred;
+    color: white;   
+}
+
+.imageprofil{
+    border-radius: 50%;
+    width: 350px;
+    height: 350px;
+}
+
+/*Home*/
+
+.profil{
+    border-radius: 30px;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: rgb(12, 134, 122);
+    height:47px;
+    max-width: auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.navbar a{
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn{
+    background-color: rgb(127, 228, 218);
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px;
+    z-index: 1;
+}
+
+.dropdown-content a{
+    float: none;
+    color: rgb(127, 228, 218);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color:rgb(127, 228, 218);
+    color: white;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.navbar-left{
+    float: left;
+}
+
+.navbar-right1 {
+    float: right;
+    padding-right: 100px;
+}
+
+.navbar-right2 {
+    float: right;
+    padding-right: 50px;
+}
+
+.container2{
+    position: relative;
+    left: 0px;
+    max-width:auto; 
+    margin: 0 auto;
+}
+  
+.container2.content {
+    position: absolute;
+    top: 140px; 
+    background-color: rgba(64, 224, 208, 0.473); 
+    color: white;
+    width: 100%;
+    padding: 10px;
+}
+
+.container2.content button{
+    background-color: rgb(12, 134, 122);
+    color: white;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 10px;
+}
+
+.container10{
+    position: absolute;
+    left: 50%;
+    top: 380px;
+    transform: translate(-50%, -50%);
+    padding: 0px 10px;
+    width: 350px;
+    
+    background-color: rgba(64, 224, 208, 0.281);
+    box-shadow: 0 0 10px rgb(255, 255, 255);
+}
+
+/*Portofolio*/
+
+.judul{
+    font-size: 30px;
+    color: white;
+    font-family:inherit;
+    text-align: center;
+}
+
+.subjudul{
+    font-size: 45px;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.container3{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0px 10px;
+    width: 400px;
+    
+    background-color: rgba(0, 128, 128, 0.336);
+    color: white;
+    box-shadow: 0 0 10px white;
+}
+
+.container4{
+    position: absolute;
+    left: 5%;
+    top: 100%;
+    padding: 0px 15px;
+    width: 400px;
+    background-color: rgba(0, 128, 128, 0.336);
+    color: white;
+    box-shadow: 0 0 10px white;
+}
+
+.container4 h4{
+    font-size: 30px;
+    color: white;
+    font-family:Impact;
+    text-align: center;
+}
+
+.container4 h5{
+    font-size: 25px;
+    color: white;
+    font-family:inherit;
+    text-align: left;
+}
+
+.container5{
+    position: absolute;
+    left: 47%;
+    top: 100%;
+    padding: 0px 15px;
+    width: 600px;
+    background-color: rgba(0, 128, 128, 0.336);
+    color: white;
+    box-shadow: 0 0 10px white;
+}
+
+.container5 h5{
+    font-size: 25px;
+    color: white;
+    font-family:inherit;
+    text-align: left;
+}
+
+.container6{
+    position: absolute;
+    left:5%;
+    top: 190%;
+    padding: 0px 15px;
+    width: 400px;
+    background-color: rgba(0, 128, 128, 0.336);
+    color: white;
+    box-shadow: 0 0 10px white;
+}
+
+.container6 h5{
+    font-size: 25px;
+    color: white;
+    font-family:inherit;
+    text-align: left;
+}
+
+.container7{
+    position: absolute;
+    left: 47%;
+    top: 231%;
+    padding: 0px 15px;
+    width: 600px;
+    background-color: rgba(0, 128, 128, 0.336);
+    color: white;
+    box-shadow: 0 0 10px white;
+}
+
+/*Project*/
+.container8{
+    position: absolute;
+    left: 225px;
+    top: 290%;
+    padding: 0px 15px;
+    width: 800px;
+    background-color: rgba(0, 128, 128, 0.336);
+    color: white;
+    box-shadow: 0 0 10px white;
+}
+
+.slideshow-container{
+    top:330%;
+    left : 240px;
+    position: absolute;
+    margin: auto;
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+
+.active {
+    background-color: #717171;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+ 
+@media only screen and (max-width: 300px) {
+    .text {font-size: 11px}
+}
+
+.container8 button{
+    background-color: rgb(12, 134, 122);
+    color: white;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 10px;
+}
+
+.footer {
+    position:absolute;
+    top:450%;
+    width: 100%;
+    background-color:rgb(5, 100, 91);
+    color: white;
+    text-align: center;
+}
+
+
+/*Gallery*/
+.gallery{
+    width: 200px;
+    height: 260px;
+    border: 10px solid rgba(255, 255, 255, 0.445);
+    padding: 15px;
+    margin: 20px;
+}
+
+/*Schedule*/
+.container9{
+    background-color: rgba(12, 134, 122, 0.356);
+    box-shadow:0 0 10px white;
+    width: 1000px;
+    color: white;
+    font-size: 17px;
+    font-family: inherit, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 10px;
+}
+
+.container9 h2{
+    font-family: inherit;
+    color: white;
+    font-size: 50px;
+}
+
+.info table tr td{
+    color: white;
+    font-size: 14px;
+    font-family: monospace;
+    text-align: left;
+}
+.table2 tr,td{
+    color: white;
+    font-size: 14px;
+    padding: 7px;
+    padding-left: 25px; 
+    padding-right: 10px; 
+}
+
+/*Telegram*/
+.tele{
+    position: fixed;
+    top: 30%;
+    left: 25%;
+    font-size: 50px;
+    font-family: inherit;
+    color: white;
+}
